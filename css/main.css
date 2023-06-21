@@ -735,6 +735,13 @@ ul.jobclass {
 }
 
 
+#officers {
+	padding-left: 20px;
+}
+#officers .card {
+	width: 200px;
+}
+
 @media (min-width:575.98px){
 
 
@@ -743,6 +750,10 @@ ul.jobclass {
 	margin-left: auto;
 	margin-right: auto;
 	}
+
+	#officers {
+		padding-left: 20px;
+	
 
 
 
