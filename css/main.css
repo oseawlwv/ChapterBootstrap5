@@ -334,6 +334,15 @@ template {
 /*******************************************************************************/
 /********************** MY CODE STARTS HERE ************************************/
 /*******************************************************************************/
+:root {
+	--red: #A40406;
+	--blue: #00005c;
+}
+
+
+
+
+
 
 html {
 	line-height: 1.15; /* 1 */
@@ -346,14 +355,15 @@ html {
 	background-image: linear-gradient(137deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(50,159,205,0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
 	background-repeat: no-repeat;
 	min-height: 1000px;
+	min-width: 360px;
 }
 
 
 body {
-	min-width: 360px;
+	
 	background: none;
 	padding-top: 57px;
-	padding-bottom: 55px;
+	
 }
 
 
@@ -443,7 +453,7 @@ body h1 {
 	margin-bottom: 12px;
 }
 .articles dl dt {
-	color: #00005C;
+	color: var(--blue);
 	font-weight: 900;
 }
 .articles dl {
@@ -456,7 +466,7 @@ body h1 {
 .art-heading {
 	font-size: 1.2rem;
 	font-weight: bold;
-	color: rgba(102,0,0,1.00);
+	color: var(--red);
 }
 
  .jobclass ul {
@@ -480,7 +490,7 @@ ul.jobclass {
 
 .articles ol > li::marker {
 	font-weight: 900;
-	color: #660000ff;
+	color: var(--red);
 }
  .holidays p {
 	text-align: center;
@@ -538,28 +548,37 @@ ul.jobclass {
 }
 */
 
+div#hero {
 
-#hero div {
+	display:inline-block;
 	position: relative;
+	vertical-align:top;
 }
-#hero h1 {
+
+div#hero img {
+	vertical-align: top;
+}
+div#hero {
+	display: inline-block;
 	position: absolute;
-    top: 24%;
-    left: 1%;
-	color: #A40406;
+	
+   	color: var(--red);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 1.1rem;
+	font-size: 2rem;
 	font-style: italic;
 	text-shadow: 2px 1px #3E3E3E;
-}
+	
 
-#logo {
-	position: absolute;
-	max-width: 35%;
-	right: 2px;
-	font-size: medium;
-	top: 13%;
 }
+.txt-div {
+	position:absolute;
+	overflow:hidden;
+	left:0;
+	bottom:-0;
+	
+
+  }
+
 
 .navbar.fixed-top.navbar-expand-sm {
 	position: fixed;
@@ -672,14 +691,14 @@ ul.jobclass {
 	border-top: 2px;
 	border-top-color: darkred;
 	border-top-style: solid;
-	position: fixed;
+	position: static;
 	bottom:0;
 	width: 100%;
 }
 
 .footer p {
 	color: whitesmoke;
-	font-size: 14px;
+	font-size: 1rem;
 }
 
 
