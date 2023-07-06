@@ -559,8 +559,7 @@ div#hero img {
 	vertical-align: top;
 }
 div#hero {
-	display: inline-block;
-	position: absolute;
+
 	
    	color: var(--red);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -574,7 +573,9 @@ div#hero {
 	position:absolute;
 	overflow:hidden;
 	left:0;
-	bottom:-0;
+	bottom:0;
+	line-height: 1.9rem;
+
 	
 
   }
@@ -683,10 +684,13 @@ div#hero {
 	display: none;
 }
 
-#news {
-	overflow:hidden
+#news p{
+	color:cornsilk
 }
-
+#news h3 {
+	color: #ff2b2b
+	;
+}
 .footer {
 	border-top: 2px;
 	border-top-color: darkred;
@@ -752,7 +756,7 @@ div#hero {
 
 #title {
 	font-size: 1.4rem;
-	padding-top: 8px;
+	padding-top: 20px;
 	font-weight: bold;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
