@@ -350,12 +350,12 @@ template {
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%;
-	background: -moz-linear-gradient(163deg, rgba(0,0,92,0.8239496482186625) 6%, rgba(167,198,218,0.8771709367340687) 53%, rgba(102,0,0,0.664285782672444) 88%);
+	background: -moz-linear-gradient(163deg, rgba(0,0,92,0.8239496482186625) 6%, rgb(0, 0, 0) 53%, rgba(102,0,0,0.664285782672444) 88%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00005c",endColorstr="#660000",GradientType=1); 
-	background-image: -webkit-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(50,159,205,0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
-	background-image: -moz-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(50,159,205,0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
-	background-image: -o-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(50,159,205,0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
-	background-image: linear-gradient(137deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(50,159,205,0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
+	background-image: -webkit-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(3, 8, 10, 0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
+	background-image: -moz-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(1, 12, 17, 0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
+	background-image: -o-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(5, 13, 17, 0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
+	background-image: linear-gradient(137deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(66, 9, 5, 0.911) 79.27%,rgba(102,0,0,0.86) 95.85%);
 	background-repeat: no-repeat;
 	min-height: 1000px;
 	min-width: 360px;
@@ -365,7 +365,9 @@ html {
 body {
 	
 	background: none;
-	margin-top: 57px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 	
 }
 
@@ -694,13 +696,13 @@ div#hero {
 	color: #ff2b2b
 	;
 }
-.footer {
+footer {
 	border-top: 2px;
-	border-top-color: darkred;
+	border-top-color: var(--red);
 	border-top-style: solid;
-	position: static;
-	bottom:0;
+	
 	width: 100%;
+	margin-top: auto;
 }
 
 .footer p {
