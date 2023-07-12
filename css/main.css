@@ -357,8 +357,6 @@ html {
 	background-image: -o-linear-gradient(313deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(5, 13, 17, 0.74) 79.27%,rgba(102,0,0,0.86) 95.85%);
 	background-image: linear-gradient(137deg,rgba(0,0,92,0.63) 2.07%,rgba(0,0,92,0.88) 44.56%,rgba(66, 9, 5, 0.911) 79.27%,rgba(102,0,0,0.86) 95.85%);
 	background-repeat: no-repeat;
-	min-height: 100vh;
-	min-width: 360px;
 }
 
 
@@ -367,7 +365,9 @@ body {
 	background: none;
 	display: flex;
 	flex-direction: column;
-	
+	min-height: 100vh;
+	min-width: 360px;
+
 }
 
 
