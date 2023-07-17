@@ -361,7 +361,7 @@ html {
 
 
 body {
-	
+	margin-top: 53px;
 	background: none;
 	display: flex;
 	flex-direction: column;
