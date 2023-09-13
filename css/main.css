@@ -415,6 +415,12 @@ body h1 {
 .contents a {
 	color: rgba(167,198,218,1.00);
 }
+p a {
+	color: #ebf833;
+
+
+
+}
 .articles h3, h4, p {
 	padding-left: 5px;
 	padding-right: 5px;
@@ -562,6 +568,7 @@ ul.jobclass {
 	font-style: italic;
 	text-shadow: 2px 1px #3E3E3E;
 	padding-top: -90px;
+	margin-bottom: 20px;
 
 }
 
@@ -688,7 +695,7 @@ ul.jobclass {
 	color:cornsilk
 }
 #news h3 {
-	color: #ee0808;
+	color: #c5c5ee;
 	text-align: center;
 }
 footer {
