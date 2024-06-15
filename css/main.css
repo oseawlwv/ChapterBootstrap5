@@ -647,6 +647,11 @@ ul.jobclass {
     border-radius: 10px;
 }
 
+.staff {
+	padding-top: 2%;
+	color: #5bccf5;
+}
+
 #officers h5 {
 	white-space: nowrap;
 }
@@ -703,9 +708,7 @@ ul.jobclass {
 	text-shadow: 1px 2px 2px #19b7f0;
 }
 
-#news img {
-	rou
-}
+
 
 footer {
 	border-top: 2px;
