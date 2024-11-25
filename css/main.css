@@ -449,6 +449,9 @@ p a {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+.articles p{
+	color: #000000;
+}
 .articles article {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -528,19 +531,25 @@ ul.jobclass {
 	margin-top: 30px;
 
 }
-
+.vacation {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
 .vacation tr td {
 	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 .break tr td {
 	text-align: center;
 }
-
-.vacation table {
-	padding-left: 27px;
-}
 .vacation tr:nth-of-type(odd) {
-	background: #B4CDED;
+	background: #3382d7;
+}
+.vacation tr:nth-of-type(1) {
+	background:#00005C;
+	color: white;
 }
 .vacation caption {
 	/* [disabled]padding-left: 8px; */
@@ -551,12 +560,17 @@ ul.jobclass {
 .vacation tr th {
 	text-align: center;
 }
-/*
-.nav-item {
-	-webkit-box-shadow: 0px 0px 0px;
-	box-shadow: 0px 0px 0px;
+
+.service {
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 10px;
 }
-*/
+.service table, th, td {
+	border:1px solid black;
+}
+
+
 
 #hero {
 
@@ -585,6 +599,7 @@ ul.jobclass {
 
   nav {
 	display: block;
+	font-size: 1.5em;;
 	
   }
 
@@ -625,9 +640,6 @@ ul.jobclass {
 
 
 }
-/*.navbar div {
-	margin-left: -15px;
-}*/
 
 /* Text color for navbar and dropdown menus */
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text,
@@ -708,6 +720,14 @@ ul.jobclass {
 	text-shadow: 1px 2px 2px #19b7f0;
 }
 
+.meetings h1, p {
+	color:#A7C6DA;
+}
+.meetings p {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 1.5em;
+}
 
 
 footer {
@@ -731,7 +751,7 @@ footer {
 
 
 .banner-lead {
-	font-size: 0.6rem;
+	font-size: 1rem;
 	background-color: #00005C;
 	color: #B4CDED;
 	white-space: nowrap;
@@ -745,12 +765,13 @@ footer {
 	padding-left: 5px;
 }
 
-
-
-
-
-
-
+.container p {
+	font-size: 1.3em;
+}
+.container h1 {
+	margin-top: 50px;
+	color:#A7C6DA;
+}
 
 /***************************************************************************************************
 ****      MEDIA QUERY - MIN 480           **********************************************************
@@ -774,10 +795,11 @@ footer {
 
 #title {
 
-	font-size: 1.4rem;
+	font-size: 2rem;
 	padding-top: 20px;
 	font-weight: bold;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #A7C6DA;
 }
 
 
