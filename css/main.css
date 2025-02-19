@@ -570,7 +570,10 @@ ul.jobclass {
 	border:1px solid black;
 }
 
-
+.conDate {
+	color: white;
+	font-style: italic;
+}
 
 #hero {
 
