@@ -570,9 +570,21 @@ ul.jobclass {
 	border:1px solid black;
 }
 
-.conDate {
+.legal {
 	color: white;
 	font-style: italic;
+}
+.clean ul {
+	margin-right: 1em;
+}
+
+.clean li {
+	list-style-type: none;
+	padding-right: 1em;
+}
+
+p.card-text {
+	color:#000000;
 }
 
 #hero {
@@ -769,7 +781,7 @@ footer {
 }
 
 .container p {
-	font-size: 1.3em;
+	font-size: 1em;
 }
 .container h1 {
 	margin-top: 50px;
