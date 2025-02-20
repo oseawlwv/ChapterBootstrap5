@@ -652,9 +652,9 @@ p.card-text {
 
  .dropdown-divider.navbar {
 	border-color: #660000;
-
-
+	margin-bottom: -10px;
 }
+
 
 /* Text color for navbar and dropdown menus */
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text,
