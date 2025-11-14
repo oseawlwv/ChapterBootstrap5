@@ -788,6 +788,26 @@ footer {
 	color:#A7C6DA;
 }
 
+#teams {
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.meetings h1 {
+	padding-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.container h1 {
+	padding-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+
+
 /***************************************************************************************************
 ****      MEDIA QUERY - MIN 480           **********************************************************
 ***************************************************************************************************/
