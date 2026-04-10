@@ -420,6 +420,9 @@ p a {
 
 
 
+
+/* "articles" (plural) is a class assigned to the section */
+
 }
 .articles h3, h4, p {
 	padding-left: 5px;
@@ -460,6 +463,8 @@ p a {
 	margin-bottom: 15px;
 	border: medium solid rgba(73,132,103,1.00);
 	background-color: rgba(180,205,237,1.00);
+
+
 }
 .articles dl dd {
 	padding-right: 3px;
@@ -817,8 +822,8 @@ footer {
 @media (min-width: 480px){
 
 	#main-content {
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
 	max-width: 480px;
 	margin-left: auto;
 	margin-right: auto;
@@ -860,9 +865,11 @@ footer {
 	
 
 	#main-content {
-	margin-left: auto;
-	margin-right: auto;
+
+	max-width: 575px;
+
 	}
+
 
 	#officers {
 		padding-left: 20px;
@@ -878,8 +885,11 @@ footer {
 @media (min-width:768px){
 
 	#main-content {
-	margin-left: 8%;
+
+	max-width: 768px;
+
 	}
+
 
 
 #top-page-btn {
@@ -923,6 +933,12 @@ footer {
 ********************************************************************/
 @media (min-width:992px){
 
+#main-content {
+	
+	max-width: 992px;
+
+	}
+
 	#bump {
 		margin-top: -360px;
 	
@@ -933,6 +949,11 @@ footer {
 ****** Media Query => 1200 - xl                         **************
 ********************************************************************/
 @media (min-width:1200px){
+
+	#main-content {
+		max-width: 1200px;
+
+	}
 
 #main-content #top-page-btn {
 	left: 824px;
@@ -948,6 +969,12 @@ footer {
 ****** Media Query => 1400 - xl                         **************
 ********************************************************************/
 @media (min-width:1400){
+	#main-content {
+		max-width: 1400px;
+
+	}
+
+
 	#bump {
 		margin-top: 0;	
 }
