@@ -679,6 +679,14 @@ p.card-text {
     border-radius: 10px;
 }
 
+nav h6 {
+	display: none;
+}
+
+#OSEA-logo {
+	display: none;
+}
+
 .staff {
 	padding-top: 2%;
 	color: #5bccf5;
@@ -702,13 +710,13 @@ p.card-text {
 	border-radius: 4px;
 	text-shadow: 1px 1px rgba(180,205,237,1.00);
 	font-weight: 600;
-	left: 80vw;
-	bottom: 2vh;
+	right: 10px;
+	top: 70px;
 }
 #top-page-btn img {
 	position: absolute;
 	bottom: auto;
-	height: 75%;
+	height:75%;
 	top: 0px;
 }
 
@@ -717,6 +725,8 @@ p.card-text {
   background-color: #660000;
 
 }
+
+
 .break tr th {
 	text-align: center;
 }
@@ -889,30 +899,15 @@ footer {
 	max-width: 768px;
 
 	}
-
-
-
-#top-page-btn {
-	height: 158px;
-	width: 127px;
-	font-size: xx-large;
-	position: fixed;
-	max-width: 529px;
-	text-align: left;
-	left: 589px;
-	bottom: 40vh;
+nav h6 {
+	display: block;
 }
 
-#top-page-btn img {
-	left: 18px;
-	position: absolute;
-	top: 28px;
+#OSEA-logo {
+	display: block;
 }
-#top-page-btn span {
-	text-align: left;
-	color: rgba(0,0,92,1.00);
-	display: inline;
-}
+
+
 
 #news .row div{
 	margin-top: 20px;
@@ -955,9 +950,6 @@ footer {
 
 	}
 
-#main-content #top-page-btn {
-	left: 824px;
-}
 
 #bump {
 	margin-top: -300px;
