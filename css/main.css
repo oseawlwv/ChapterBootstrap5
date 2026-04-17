@@ -420,7 +420,13 @@ p a {
 
 
 
-
+.contract-title h1 {
+	font-size: 1 rem;
+	padding-top: 20px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: cornsilk;
+}
 /* "articles" (plural) is a class assigned to the section */
 
 }
@@ -437,7 +443,7 @@ p a {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #660000ff;
 	/* [disabled]margin-top: 47px; */
-	background-color: #A7C6DA;
+	background-color:cornsilk;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	/* [disabled]bottom: 16px; */
@@ -447,22 +453,27 @@ p a {
 	z-index: -35;
 }
 .articles h4 {
-	color: #A7C6DA;
+	color: cornsilk;
 	background-color: #00005C;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
 }
+
+
 .articles p{
 	color: #000000;
 }
 .articles article {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
 	padding-top: 0px;
 	margin-top: 0px;
 	margin-bottom: 15px;
 	border: medium solid rgba(73,132,103,1.00);
-	background-color: rgba(180,205,237,1.00);
+	background-color:cornsilk;
 
 
 }
@@ -711,7 +722,7 @@ nav h6 {
 	text-shadow: 1px 1px rgba(180,205,237,1.00);
 	font-weight: 600;
 	right: 10px;
-	top: 70px;
+	top: 95%;
 }
 #top-page-btn img {
 	position: absolute;
@@ -725,7 +736,16 @@ nav h6 {
   background-color: #660000;
 
 }
-
+#appendixes div {
+	color:#00005C;
+	background-color:cornsilk;
+}
+#appendixes h1 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #660000;
+}
 
 .break tr th {
 	text-align: center;
@@ -821,6 +841,15 @@ footer {
 	text-align: center;
 }
 
+.articles.cba h4 {
+	color: cornsilk;
+	background-color: #00005C;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
 
 
 /***************************************************************************************************
@@ -849,9 +878,8 @@ footer {
 	padding-top: 20px;
 	font-weight: bold;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color: #A7C6DA;
+	color: cornsilk;
 }
-
 
 #officers {
 	padding-left: 20px;
