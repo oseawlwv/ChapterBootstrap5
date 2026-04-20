@@ -875,19 +875,9 @@ footer {
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 }
-#news ul {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: center;
-	list-style-type: none;
-}
 
-#news ul li {
-	color:cornsilk;
-	font-size: 1.1em;
-} 
 #news div {
-	background-color:#ebf833;
+	background-color:#221247;
 }
 
 .delegate-list {
