@@ -378,6 +378,15 @@ body h1 {
 	color: cornsilk;
 }
 
+.side-menu {
+	margin-top: 50px;
+}
+
+.contents {
+	background:#660000;
+	border-radius: 10px;
+}
+
 .contents h2 {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -394,15 +403,17 @@ body h1 {
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 	color: rgba(167,198,218,1.00);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .contents ul li {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
-	text-indent: -6.3em;
-	padding-left: 4em;
+	text-indent: -1em;
+	padding-left: 3px;
 	padding-right: 3px;
 	margin-top: 11px;
-	text-align: center;
+	text-align: left;
 }
 #main-content .contents {
 	margin-bottom: 25px;
@@ -419,9 +430,12 @@ body h1 {
 .contents a {
 	color: rgba(167,198,218,1.00);
 }
+
+
+
+
 p a {
 	color: #ebf833;
-
 }
 
 #title h1 {
@@ -433,15 +447,25 @@ p a {
 }
 /* "articles" (plural) is a class assigned to the section */
 
+.articles article {
+	border-radius: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	border: medium solid rgba(73,132,103,1.00);
+	background-color:cornsilk;
+}
 
-.articles h3, h4, p {
+.articles h3, h4, h5, p {
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
 .articles  h6 {
     text-align: center;
     font-size: 1.5rem;
 }
+
 .articles h3 {
 	text-align: center;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -455,7 +479,8 @@ p a {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	z-index: -35;
-}
+}	
+
 .articles h4 {
 	color: cornsilk;
 	background-color: #00005C;
@@ -466,20 +491,10 @@ p a {
 
 }
 
-
 .articles p{
 	color: #000000;
 }
-.articles article {
-	border-radius: 10px;
-	padding-top: 0px;
-	margin-top: 0px;
-	margin-bottom: 15px;
-	border: medium solid rgba(73,132,103,1.00);
-	background-color:cornsilk;
 
-
-}
 .articles dl dd {
 	padding-right: 3px;
 	margin-bottom: 12px;
@@ -536,9 +551,7 @@ ul.jobclass {
 	margin-right: auto;
 }
 
-.articles {
-	margin-left:10px;
-}
+
 .holidays ul {
 	list-style: none;
 	margin-top: 0px;
@@ -900,7 +913,6 @@ footer {
 }
 
 
-
 /****
 #div-1 {
 	background-color: #990492;
@@ -997,6 +1009,9 @@ max-width: 575px;
 	color: cornsilk;
 }
 
+
+
+
 }
 /************************************************************
 ****      MEDIA QUERY - MIN 768 - md   ********************** ************************************************************/
@@ -1043,6 +1058,15 @@ nav h6 {
 	padding: 10px;
 }
 
+.side-menu {
+	position:relative;
+}
+section.contents {
+	position: sticky;
+	top: 60px;
+	max-height: calc(100vh - 60px);
+	overflow-y: auto;
+}	
 }
 
 /********************************************************************
