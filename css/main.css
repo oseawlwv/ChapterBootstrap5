@@ -555,16 +555,14 @@ ul.jobclass {
 
 .holidays ul {
 	list-style: none;
-	margin-top: 0px;
-	margin-bottom: 0px;
+
 }
 .holidays ul li {
 	text-align: center;
 	font-style: italic;
 }
 .holidays li {
-	margin-top: px;
-
+	margin-top: 1px;
 }
 .vacation {
 	margin-left: auto;
@@ -599,7 +597,7 @@ ul.jobclass {
 .service {
 	margin-left:auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 }
 .service table, th, td {
 	border:1px solid black;
