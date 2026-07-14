@@ -432,10 +432,12 @@ body h1 {
 }
 
 
-
-
 p a {
-	color: #ebf833;
+	color: #52049b;
+}
+
+li {
+	margin-bottom: 1px;
 }
 
 #title h1 {
@@ -500,7 +502,7 @@ p a {
 	margin-bottom: 12px;
 }
 .articles dl dt {
-	color: var(--blue);
+	color: #660000;
 	font-weight: 900;
 }
 .articles dl {
@@ -513,16 +515,15 @@ p a {
 .art-heading {
 	font-size: 1.2rem;
 	font-weight: bold;
-	color: var(--red);
+	color: #00005c;
+	padding-left: 5px;
+}
+.jobclass ul {
+	margin-bottom: 10px;
 }
 
- .jobclass ul {
-	margin-bottom: 18px;
-	list-style: circle;
-}
-ul.jobclass li {
-	margin-bottom: 5px;
-	
+ul.jobclass ul {
+	list-style: disc;
 }
 
 ul.jobclass {
@@ -562,7 +563,7 @@ ul.jobclass {
 	font-style: italic;
 }
 .holidays li {
-	margin-top: 30px;
+	margin-top: px;
 
 }
 .vacation {
