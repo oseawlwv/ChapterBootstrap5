@@ -348,6 +348,7 @@ template {
 
 
 html {
+	scroll-padding-top: 75px;
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%;
 	background: -moz-linear-gradient(163deg, rgba(0,0,92,0.8239496482186625) 6%, rgb(0, 0, 0) 53%, rgba(102,0,0,0.664285782672444) 88%);
